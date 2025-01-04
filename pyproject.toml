@@ -12,6 +12,9 @@ pytz = "^2024.2"
 flask-sslify = "^0.1.5"
 
 
+[tool.poetry.group.dev.dependencies]
+poethepoet = "^0.32.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

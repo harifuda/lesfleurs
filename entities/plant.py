@@ -1,2 +1,3 @@
 class Plant:
-   pass 
+   def __init__(self, name, genus):
+      pass
