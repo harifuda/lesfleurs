@@ -1,12 +1,10 @@
 from flask import Flask, render_template
 from flask_sslify import SSLify
-from datetime import date
-import pytz
+from waitress import serve
 
 app = Flask(__name__)
 sslify = SSLify(app)
 
-today = date.today()
 
 @app.route("/")
 def index():
