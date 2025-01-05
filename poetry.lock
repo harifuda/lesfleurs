@@ -59,6 +59,21 @@ async = ["asgiref (>=3.2)"]
 dotenv = ["python-dotenv"]
 
 [[package]]
+name = "flask-navigation"
+version = "0.2.0"
+description = "The navigation of Flask application."
+optional = false
+python-versions = "*"
+files = [
+    {file = "Flask-Navigation-0.2.0.tar.gz", hash = "sha256:c42d30efa989ca877444a410e8a1cd2563546f9effe3d9fe388eedf7a6c69285"},
+    {file = "Flask_Navigation-0.2.0-py2.py3-none-any.whl", hash = "sha256:5b1f5120dbed47f81c0333aefda48972709d9d8506c02a644cb933508c6dabe1"},
+]
+
+[package.dependencies]
+blinker = "*"
+Flask = "*"
+
+[[package]]
 name = "flask-sslify"
 version = "0.1.5"
 description = "Force SSL on your Flask app."
@@ -306,4 +321,4 @@ watchdog = ["watchdog (>=2.3)"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "68ee61fd10c2abaea7ae2e41cc304caf0b97ddbc14e3a7189ef0eef1b1c7eadb"
+content-hash = "8b2069ce4720ba6f7009c3856e843e0a35ee75b75f5e86bf8b0fb47321a921cc"
